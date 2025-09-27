@@ -1,0 +1,95 @@
+Technologies
+
+VLA Models
+
+GR00T N1.5
+Pi0.5
+SmolVLA
+Gemini Robotics
+
+(List all the top open source ones)
+
+VLM Models
+
+(List all the top open source ones)
+
+SAM2
+
+Foundation navigation model - ViNT – Visual Navigation Transformer with synthetic data from mobility gen
+
+Diffusion models - powerful for generating not just images, videos, but also robot actions
+
+ROS2 - robust communication backbone
+
+Nav2 and Moveit - Ros2 libraries for fully autonomous navigation and collision free robot arm motion planning
+
+Issac Ros with Cumotion - Nvidia GPU accelerated ROS framework and libraries
+
+Issac Sim - Photoreleastic and accurate physics , Genesis, other simulators (list them)
+
+Issac Lab - Reinforcement learning with PPO, finetuning VLA models with RLVR
+
+Jetson Thor - Purpose built for robots and 
+
+Digital Twins - Using nVidia omniverse to visualize and optimize workflows based on the customer’s exact scenarios
+
+Sim to Real - Domain Randomization, 
+
+Real to Sim - Gaussian Splatting, 3d pixels to CAD models (name the tech here)
+
+World Foundation Models
+
+Nvidia cosmos
+List others potentially helpful to robots
+
+Realsense 3D Depth Camera
+
+Cheap 3D Lidars
+
+Sim ready assets - Light Wheel
+
+GraspGen
+
+Teleop Data collection - GR00T mimic, data as a programming language
+
+Low latency teleop for human in the loop control and for using indian workforce to operate robots in US
+
+Specialized Robots to human teleop assisted autonomy to general purpose robots - data flywheel
+
+Imitation learning makes teaching mathematically undefinable and non programmable tasks straightforward
+
+VLM backbone and pretraining with the cross embodiment robot dataset generalizes this to variable and unseen environments
+
+Hardware - Obviated need for sub mm accuracy arms/ Customized Openarm Arms - 7 dof - 1 - 2 mm accuracy ~6K USD for the bimanual setup.
+
+
+
+Robot Skills
+
+
+Grasping objects - GraspGen (with SAM2 to separate individual items) or GR00T VLA or other VLAs plus moveit for collision free motion planning
+
+Dextrous task of putting items in cardboard and creating boxes - VLA models trained with teleop + in simulation (issac sim) with synthetic data gen from GR00T mimic and world models.
+
+VLMs to identify the right objects in totes and shelves. A tote can contain multiple items and the system will identify the right item based on its description and pick
+
+VLMs for product quality control. Check packaging quality, expiry dates, damages etc.
+
+Neat restocking of goods onto shelves or totes for easy understanding and access.
+
+Sorting items based on type, quality, other properties using VLM and VLA.
+
+Find and scan barcode to confirm right item picks - VLA models, trained in isaac sim + real world
+
+Label sticking on boxes, pouches, SKUs with barcodes, other details
+
+Packet Filling - Behaviour cloning + collision checking
+
+Machine Use - Semi automated filling machine, packing machines etc, some touch screen workflows
+
+Simple assembly tasks like plugging wires together
+
+
+
+
+
